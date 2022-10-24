@@ -191,6 +191,7 @@ def quick_sort(a):
         a = quick_sort(low) + eq + quick_sort(hi)
 
     return a
+
 # Quick sort for 10
 lst_10 = []
 while True:
@@ -200,6 +201,7 @@ while True:
 start_time = time.time()
 a = quick_sort(lst_10)
 print('Fast_sort for 10 ---%s second---'% (time.time()-start_time))
+
 # Quick sort for 100
 lst_100 = []
 while True:
@@ -209,6 +211,7 @@ while True:
 start_time = time.time()
 a = quick_sort(lst_100)
 print('Fast_sort for 100 ---%s second---'% (time.time()-start_time))
+
 # Quick sort for 1000
 lst_1000 = []
 while True:
@@ -218,6 +221,7 @@ while True:
 start_time = time.time()
 a = quick_sort(lst_1000)
 print('Fast_sort for 10 ---%s second---'% (time.time()-start_time))
+
 # Quick sort for 100
 lst_10000 = []
 while True:
