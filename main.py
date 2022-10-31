@@ -1,7 +1,6 @@
 # Recursion for factorial
 import random
 
-
 def factorial(x):
     if x == 0:
         return 1
@@ -19,9 +18,11 @@ def cycle_fact(x):
         else:
             j = j * i
     print("cycle_fact : ", j)
+
 u = random.randint(0,10)
 print("Choose int:",u)
 cycle_fact(u)
+
 # Recursion for fibonacci
 def fibo(x):
     if x == 0:
@@ -33,6 +34,7 @@ def fibo(x):
 u = random.randint(0,30)
 print("Choose index of any Fibonacci number:",u)
 print("Fibonacci number:", fibo(u))
+
 # Cycle for fibo
 n = random.randint(1,30)
 def cycle_fibo(n):
@@ -46,8 +48,10 @@ def cycle_fibo(n):
         bfn = fib
         i += 1
     return fib
+
 print("Choose index of any Fibonacci number:",n)
 print("Fibonacci number:",cycle_fibo(n))
+
 # Recursion division
 
 def dev(x):
@@ -61,6 +65,7 @@ x = random.randint(10,1000)
 
 print("Random value from 10 to 1000:", x)
 print("Sum digit of number:", dev(x))
+
 # Recursion for sum a + b
 def plus(a, b):
     if b == 0:
